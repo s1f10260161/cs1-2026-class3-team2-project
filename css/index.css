@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.label {
+    text-align: center;
+    font-weight: bold;
+}
+
+.photo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: #eee;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 150px;
+}
