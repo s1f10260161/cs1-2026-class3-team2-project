@@ -2,22 +2,88 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>題名</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>近所のおすすめ店</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/index.css">
+    <noscript>
+        <style>
+            .spot { opacity: 1 !important; transform: none !important; }
+        </style>
+    </noscript>
 </head>
 <body>
-    <h1>題名</h1>
+    <main class="guide">
+        <header class="masthead">
+            <h1 class="title">近所のおすすめ店</h1>
+        </header>
 
-    <div class="grid">
-        <div class="photo">写真</div>
-        <div class="label">項目1</div>
-        <div class="label">項目2</div>
-        <div class="photo">写真</div>
+        <ol class="grid">
+            <li class="spot" style="--i:0">
+                <a class="spot-link" href="#">
+                    <figure class="photo">
+                        <img class="ph-img" src="images/中野の紹介ページ画像(1).jpeg" alt="ラム煮込みプレート" loading="lazy">
+                        <span class="genre">ペルシャ料理</span>
+                    </figure>
+                    <div class="info">
+                        <p class="area">メンバーN</p>
+                        <h2 class="shop">A食堂</h2>
+                        <p class="note">おいしいおいしい</p>
+                        <p class="by">おすすめ — たく</p>
+                    </div>
+                </a>
+            </li>
 
-        <div class="photo">写真</div>
-        <div class="label">項目3</div>
-        <div class="label">項目4</div>
-        <div class="photo">写真</div>
-    </div>
+            <li class="spot" style="--i:1">
+                <a class="spot-link" href="#">
+                    <figure class="photo">
+                        <img class="ph-img" src="images/中野の紹介ページ画像(1).jpeg" alt="ラムカレープレート" loading="lazy">
+                        <span class="genre">ハラルカレー</span>
+                    </figure>
+                    <div class="info">
+                        <p class="area">メンバーN</p>
+                        <h2 class="shop">B食堂</h2>
+                        <p class="note">うまいうまい</p>
+                        <p class="by">おすすめ — みな</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="spot" style="--i:2">
+                <a class="spot-link" href="#">
+                    <figure class="photo">
+                        <img class="ph-img" src="images/中野の紹介ページ画像(1).jpeg" alt="羊肉トマト煮込み" loading="lazy">
+                        <span class="genre">中央アジア料理</span>
+                    </figure>
+                    <div class="info">
+                        <p class="area">メンバーN</p>
+                        <h2 class="shop">C食堂</h2>
+                        <p class="note">おいしいおいしい</p>
+                        <p class="by">おすすめ — りく</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="spot" style="--i:3">
+                <a class="spot-link" href="#">
+                    <figure class="photo">
+                        <img class="ph-img" src="images/中野の紹介ページ画像(1).jpeg" alt="メンバーNバザールのラム煮込みワンプレート" loading="lazy">
+                        <span class="genre">エスニック定食</span>
+                    </figure>
+                    <div class="info">
+                        <p class="area">メンバーN</p>
+                        <h2 class="shop">D食堂</h2>
+                        <p class="note">うまいうまい</p>
+                        <p class="by">おすすめ — さき</p>
+                    </div>
+                </a>
+            </li>
+        </ol>
+    </main>
+
+    <script src="js/index.js?v=1" defer></script>
 </body>
 </html>
