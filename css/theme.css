@@ -1,11 +1,11 @@
 :root {
-    --paper:   #FAF4E8;
-    --ink:     #23262E;
-    --meta:    #8C8472;
-    --hair:    #E6DBC7;
-    --indigo:  #16487A;
-    --persimmon: #EC5C29;
+    --background:       #FAF4E8;
+    --surface:          #FFFDF8;
+    --photo-background: #EFE7D6;
 
-    --card:    #FFFDF8;
-    --frame:   #EFE7D6;
+    --text:             #23262E;
+    --text-muted:       #8C8472;
+
+    --accent:           #16487A;
+    --accent-warm:      #EC5C29;
 }
